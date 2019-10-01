@@ -12,10 +12,10 @@
 			<form name="infoForm" class="requestForm" action="jira.php" onsubmit="return validateForm(['username', 'summary'])" method="post">
 				<input type="text" name="requestID" value="1" class="hidden">
 				<div class="fieldGroup">
-					<label class="fieldLabel">Confluence Username: <em>(required)</em></label>
+					<label class="fieldLabel">Jira Username: <em>(required)</em></label>
 					<input class="text" type="text" name="username">
 					<div class="description">
-					The first part of your email, e.g. m-e.terhune
+					Description of what username should be used
 					</div>
 				</div>
 				<div class="fieldGroup">
@@ -30,7 +30,7 @@
 					<textarea class="textArea" name="description"></textarea>
 				</div>
 				<div class="fieldGroup">
-					<label class="fieldLabel">Operative System:</label>
+					<label class="fieldLabel">Operatiing System:</label>
 					<select name="customfield_11711">
 						<option value="Windows" selected>Windows</option>
 						<option value="Android">Android</option>
@@ -78,7 +78,7 @@
 					e.g. computer, cables, modem, case, etc.
 					</div>
 				</div>
-				<div class="fieldGroup hidden">
+				<div class="fieldGroup">
 					<label class="fieldLabel">Priority:</label>
 					<select name="customfield_10648">
 						<option value="Normal" selected>Normal</option>

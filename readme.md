@@ -8,15 +8,13 @@ Using the normal Jira web interface as a helpdesk kiosk presents several problem
 
 This simplified web interface allows users to log tickets without signing in to Jira
 
-##Setup##
-
-1. API User
+### API User
 
 A Jira user with admin permissions is required to authenticate and to create tickets on behalf of other users. Username / password is defined in the postRequests function in jira.php
 
 Authentication is currently via basic authentication with username and password. This may not be supported in the future, and Jira recommends using API tokens instead, but I have not been able to figure out how to generate API tokens on a local install of Jira.
 
-2. Creating / Updating Forms
+### Creating / Updating Forms
 
 The submission forms for each ticket type are currently manually defined. If the form is changed in Jira, it must also be changed separately here.
 

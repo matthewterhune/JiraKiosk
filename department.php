@@ -4,7 +4,6 @@
 			<div class="requestType">
 				<h2>Departmental Support</h2>
 				<p>Get assistance with department systems setup and troubleshooting</p>
-				<!--<p><a href="helpdesk.html">helpdesk</a> / <a href="department.html">department requests</a> / <a href="email.html">email forwarding</a> / <a href="phone.html">phone help</a> / <a href="language.html">language software</a> / <a href="software dev">software dev</a></p>-->
 			</div>
 		</div>
 
@@ -12,10 +11,10 @@
 			<form name="infoForm" class="requestForm" action="jira.php" onsubmit="return validateForm(['username', 'summary', 'customfield_10616'])" method="post">
 				<input type="text" name="requestID" value="12" class="hidden">
 				<div class="fieldGroup">
-					<label class="fieldLabel">Confluence Username: <em>(required)</em></label>
+					<label class="fieldLabel">Jira Username: <em>(required)</em></label>
 					<input class="text" type="text" name="username">
 					<div class="description">
-					The first part of your email, e.g. m-e.terhune
+					Description of how to find your Jira username
 					</div>
 				</div>
 				<div class="fieldGroup">
