@@ -8,7 +8,7 @@ Using the normal Jira web interface as a helpdesk kiosk presents several problem
 
 This simplified web interface allows users to log tickets without signing in to Jira
 
-##Setup##
+## Setup
 
 1. API User
 
