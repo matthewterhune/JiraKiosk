@@ -1,0 +1,183 @@
+html {
+	margin: 0;
+}
+
+body {
+	font-family: Arial,sans-serif;
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.43;
+}
+
+.header {
+	background-color: #205081;
+	color: white;
+	background-image: url("./jira-logo-scaled.png");
+	background-repeat: no-repeat;
+	padding: 10px 0 10px 7em;
+	background-position: 25px 10px
+}
+
+
+
+.header p {
+	padding: 0;
+	margin: 5px 0;
+}
+
+.requestType p {
+	margin: 7px 0;
+}
+
+.requests img {
+	width: 39px;
+	float: left;
+	margin: 3px 12px 0 0;
+}
+
+.hidden {
+	display: none;
+}
+
+.main {
+	margin: 5em auto;
+	width: 900px;
+}
+
+.requests {
+	margin-bottom: 3em;
+}
+
+.text, .textArea, select {
+	width: 50%;
+	line-height: 1.43;
+	padding: 4px 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+	font-size: inherit;
+	font-family: inherit;
+	margin: 0;
+	vertical-align: baseline;
+}
+
+.text, select {
+	height: 30px;
+}
+
+select {
+	cursor: pointer;
+}
+
+.fieldLabel {
+	display: block;
+	float: none;
+	margin: 0 0 5px 0;
+	padding: 0;
+	text-align: left;
+	width: auto;
+	color: #606060;
+	border-spacing: 0;
+}
+
+.textArea {
+	overflow: hidden;
+	height: 165px;
+	border-spacing: 0;
+	background: white;
+	color: #333;
+}
+
+.fieldGroup {
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%
+	border-spacing: 0;
+}
+
+.submitButton {
+	font-size: 14px;
+	background: #3572b0;
+	border-color: transparent;
+	color: white;
+	font-weight: bold;
+	box-sizing: border-box;
+	border-radius: 3.01px;
+	cursor: pointer;
+	display: inline-block;
+	font-family: inherit;
+	height: 2.14285714em;
+	margin: 20px 0 0 0;
+	padding: 4px 10px;
+	text-decoration: none;
+	vertical-align: baseline;
+	white-space: nowrap;
+}
+
+.description {
+	width: 50%;
+	box-sizing: border-box;
+	float: right;
+	padding-left: 40px;
+}
+
+h2 {
+	color: #333;
+	font-size: 24px;
+	font-weight: normal;
+	line-height: 1.25;
+	text-transform: none;
+	margin: 0;
+}
+
+em {
+	color: #D33;
+}
+
+.spacer {
+	width: 70px;
+	display: inline;
+}
+
+.requestType.fp {
+	margin-left: 50px;
+}
+
+.titleLink {
+	text-decoration: none;
+	display: block;
+	color: #333;
+}
+
+.titleLink h2 {
+	color: #3572b0;
+	font-size: 1.3em;
+}
+
+.question {
+	margin-bottom: 34px;
+	font-size: 24px;
+	color: #333;
+}
+
+.indexWrapper {
+	margin-left: 30px;
+}
+
+.cancel {
+	color: #3572b0;
+	text-decoration: none;
+	margin-left: 12px;
+}
+
+.resultsTable td {
+	padding: 0 1.5em .2em 0;
+	border-collapse: collapse;
+}
+
+.resultsWrapper {
+	border-top: 1px solid #bbb;
+	margin-top: 5em;
+	padding-top: 2em;
+}

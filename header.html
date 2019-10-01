@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>Helpdesk Kiosk</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./style.css">
+
+	<script>
+	function validateForm(checkFields) {
+		var x = false;
+		var i;
+		for (i=0; i<checkFields.length; i++) {
+    		if  (document.forms["infoForm"][checkFields[i]].value == "") {
+    			x = true;
+    		}
+    	}
+    	if (x == true) {
+        alert("Please fill out all required fields before submitting");
+        return false;
+    	}
+	} 
+	</script>
+</head>
+
+<body>
+	<div class="header">
+		<p>Helpdesk Kiosk</p>
+	</div>
+
+	<div class="main">
