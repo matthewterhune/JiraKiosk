@@ -16,7 +16,7 @@ Authentication is currently via basic authentication with username and password.
 
 ### Creating / Updating Forms
 
-The submission forms for each ticket type are currently manually defined. If the form is changed in Jira, it must also be changed separately here.
+The submission forms for each ticket type are currently manually defined. If the form is changed in Jira, it must also be changed separately here. Each form must also correspond to a case in jira.php that constructs the JSON for the api request. The custom fields in the JSON should match the actual custom field ids in your Jira form.
 
 To retrieve the fields currently available for a request type, look at:
 https://your_jira_install.com/rest/servicedeskapi/servicedesk/[desk-id]/requesttype/[request-id]/field
@@ -27,3 +27,7 @@ https://your_jira_install.com/rest/servicedeskapi/servicedesk
 https://your_jira_install.com/rest/servicedeskapi/servicedesk/[desk-id]/requesttype
 
 If a form needs to be updated, first the form specific php file should be changed, then the switch statement in jira.php should be modified to match.
+
+### Index
+
+The index page contains only one active form section (this is the only one we currently use), but example sections for links to other forms are left as comments.

@@ -21,16 +21,7 @@
 			</div>
 		</div>
 		</a>
-		<a href="email.html" class="titleLink">
-		<div class="requests">
-			<img src="./images/email.svg">
-			<div class="requestType fp">
-				<h2>Email Forwarding</h2>
-				<p>For people leaving Ukarumpa</p>
-			</div>
-		</div>
-		</a>-->
-		<!--<a href="phone.html" class="titleLink">
+		<a href="phone.html" class="titleLink">
 		<div class="requests">
 			<img src="./images/telephone.svg" style="height: 38px">
 			<div class="requestType fp">
